@@ -37,7 +37,7 @@ pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 import fitz
 
-pdffile = "/G60754101-OTHERS(2)-2021.pdf"
+pdffile = "/filename.pdf"
 doc = fitz.open(pdffile)
 
 from PIL import Image
@@ -50,5 +50,5 @@ for page in doc:
   img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
   txt = pytesseract.image_to_string(img, lang='eng')
   print(txt)
-  with open("/G60754101-OTHERS(2)-2021.txt", "a") as text_file:
+  with open("/filename.txt", "a") as text_file:
     text_file.write(txt)
