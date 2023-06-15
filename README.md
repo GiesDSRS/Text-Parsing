@@ -18,10 +18,35 @@ The code is a Python script that performs Optical Character Recognition (OCR) on
 
 ## Readme
 
-**Description:** Provide a brief overview of the project and mention that the code performs OCR on a PDF using PyMuPDF and pytesseract.
+**Description:**
 
-**Dependencies:** List the dependencies required to run the code, including pytesseract, PyMuPDF, and Tesseract.
+The code performs Optical Character Recognition (OCR) on a PDF document.
+It utilizes the PyMuPDF and pytesseract libraries in Python.
 
-**Installation:** Explain the installation steps, such as updating the system, installing the necessary libraries, and downloading Poppler and Tesseract.
+**Dependencies:**
 
-**Usage:** Describe how to use the code, including any specific input requirements or file paths. Mention that the OCR output is printed and saved to a text file.
+pytesseract (version 0.3.9)
+PyMuPDF
+Tesseract OCR engine
+
+**Installation:**
+
+Update the system using apt update.
+Install the required system libraries using apt-get install.
+Download and build the Poppler library from source.
+Install pytesseract using pip install pytesseract==0.3.9.
+Install the Tesseract OCR engine using apt install tesseract-ocr and apt install libtesseract-dev.
+Install PyMuPDF using pip install PyMuPDF.
+
+**Usage:**
+
+Run the code and it will perform OCR on the PDF, extracting the text.
+The extracted text will be printed to the console and saved to a text file named "FileName.txt".
+
+**License:**
+
+University of Illinois Urbana-Champaign License
+
+Permission is hereby granted, free of charge, to any member of the University of Illinois Urbana-Champaign community (including faculty, staff, and students) to use, modify, and distribute this code for academic and non-commercial purposes within the University of Illinois Urbana-Champaign.
+
+Any use, modification, or distribution of this code outside the University of Illinois Urbana-Champaign requires explicit permission from the author.
