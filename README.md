@@ -45,6 +45,12 @@ The extracted text will be printed to the console and saved to a text file named
 
 **License:**
 
+pytesseract: pytesseract library is released under the Apache License 2.0. You can find the license details in the library's documentation or source code.
+
+tesseract-ocr: tesseract-ocr is an open-source OCR engine. It is released under the Apache License 2.0 as well. You can find more information about the license in the tesseract-ocr repository or its documentation.
+
+PyMuPDF: PyMuPDF is a Python wrapper for the MuPDF library. MuPDF itself is released under the GNU Affero General Public License (AGPL). It's important to review the specific terms and conditions of the MuPDF license to ensure compliance.
+
 University of Illinois Urbana-Champaign License
 
 Permission is hereby granted, free of charge, to any member of the University of Illinois Urbana-Champaign community (including faculty, staff, and students) to use, modify, and distribute this code for academic and non-commercial purposes within the University of Illinois Urbana-Champaign.
