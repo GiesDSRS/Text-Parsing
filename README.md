@@ -1,4 +1,4 @@
-**# Text-Parsing**
+## Text-Parsing
 
 
 The code is a Python script that performs Optical Character Recognition (OCR) on a PDF document using the PyMuPDF and pytesseract libraries. Here's a brief explanation of what the code does:
@@ -16,7 +16,7 @@ The code is a Python script that performs Optical Character Recognition (OCR) on
 **Load PDF and Perform OCR:** The code loads a PDF file using fitz (PyMuPDF) and sets a zoom factor for increased resolution. It then iterates over each page of the PDF, converts it to an image, and performs OCR using pytesseract. The extracted text is printed and saved to a text file.
 
 
-**# Readme:**
+## Readme
 
 **Description:** Provide a brief overview of the project and mention that the code performs OCR on a PDF using PyMuPDF and pytesseract.
 
