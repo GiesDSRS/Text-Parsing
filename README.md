@@ -51,8 +51,4 @@ tesseract-ocr: tesseract-ocr is an open-source OCR engine. It is released under 
 
 PyMuPDF: PyMuPDF is a Python wrapper for the MuPDF library. MuPDF itself is released under the GNU Affero General Public License (AGPL). It's important to review the specific terms and conditions of the MuPDF license to ensure compliance.
 
-University of Illinois Urbana-Champaign License
-
-Permission is hereby granted, free of charge, to any member of the University of Illinois Urbana-Champaign community (including faculty, staff, and students) to use, modify, and distribute this code for academic and non-commercial purposes within the University of Illinois Urbana-Champaign.
-
-Any use, modification, or distribution of this code outside the University of Illinois Urbana-Champaign requires explicit permission from the author.
+MIT License
